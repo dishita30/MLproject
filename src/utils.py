@@ -1,0 +1,1 @@
+#whenever requirement is there, we can use this custom exception class to raise the exception

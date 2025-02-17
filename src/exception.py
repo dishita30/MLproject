@@ -1,5 +1,6 @@
 ## EXCEPTION HANDLING
 import sys
+import logging
 #provides various functions and variables that are used to manipulate different parts of the Python runtime environment
 
 def error_message_detail(error,error_details:sys): #shows the error message and the details of the error in the sys
@@ -27,3 +28,4 @@ class CustomException(Exception):
     
     def __str__(self):
         return self.error_message
+
